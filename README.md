@@ -25,13 +25,13 @@ npm i json-server
 (Basic http server)
 
 Add server to package.json on the bottom of scripts
-"scripts": {
-    "start": "react-scripts start", (this one was already here)
-    "build": "react-scripts build", (this one was already here)
-    "test": "react-scripts test", (this one was already here)
-    "eject": "react-scripts eject", (this one was already here)
-    "server": "json-server --watch db.json --port 5000"
-},
+    "scripts": {
+        "start": "react-scripts start", (this one was already here)
+        "build": "react-scripts build", (this one was already here)
+        "test": "react-scripts test", (this one was already here)
+        "eject": "react-scripts eject", (this one was already here)
+        "server": "json-server --watch db.json --port 5000"
+    },
 
 # To Start the mock API
 
@@ -117,7 +117,7 @@ index.js
 
 # Shortcuts (they only work if you have an extension called ES7 React/Redux/GraphQL/React-Native snippets)
 if you dont now how to add an extension
-https://code.visualstudio.com/docs/editor/extension-marketplace
+(https://code.visualstudio.com/docs/editor/extension-marketplace)
 
 clg
     console.log(object)
