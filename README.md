@@ -96,6 +96,7 @@ App.js
 
 App.css
     delete everything in here exept:
+    
         .App {text-align: center;}
 
         (Only keep the following, if you want the dark header)
