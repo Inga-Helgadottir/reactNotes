@@ -59,13 +59,13 @@ setupTests.js
 
 ## Change the following
 
-Add the following folders
+### Add the following folders
     components 
         the components should always start with a capital letter
     styles
         then move the css files to the styles folder
 
-index.html
+### index.html
     delete lines:
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -74,7 +74,7 @@ index.html
         <title>React App</title>
         to whatever the name of your project is
 
-App.js
+### App.js
     delete lines:
         import logo from './logo.svg';
         <header className="App-header">
@@ -94,9 +94,9 @@ App.js
     change line:
         import "./App.css"; to import "./styles/App.css";
 
-App.css
+### App.css
     delete everything in here exept:
-    
+
         .App {text-align: center;}
 
         (Only keep the following, if you want the dark header)
@@ -111,7 +111,7 @@ App.css
             color: white;
         }
 
-index.js
+### index.js
     delete lines:
         reportWebVitals();
         import reportWebVitals from './reportWebVitals';
@@ -122,10 +122,10 @@ index.js
 if you dont now how to add an extension
 (https://code.visualstudio.com/docs/editor/extension-marketplace)
 
-clg
+### clg
     console.log(object)
 
-rafce
+### rafce
     import React from 'react'
     const Button = () => {
         return (
@@ -134,7 +134,7 @@ rafce
     }
     export default Button
 
-rafcp
+### rafcp
     import React from 'react'
     import PropTypes from 'prop-types'
     const Button = props => {
@@ -145,7 +145,7 @@ rafcp
     Button.propTypes = {}
     export default Button
 
-rafc
+### rafc
     import React from 'react'
     const Button = () => {
         return (
@@ -154,16 +154,16 @@ rafc
     }
     export default Button
 
-fre
+### fre
     array.forEach(currentItem => {})
 
-nfn
+### nfn
     const name = (params) => {}
 
-ptsr
+### ptsr
     PropTypes.string.isRequired,
 
-rcc
+### rcc
     import React, { Component } from 'react'
     export default class Button extends Component {
         render() {
