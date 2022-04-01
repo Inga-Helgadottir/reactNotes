@@ -25,12 +25,12 @@ npm i json-server
 (Basic http server)
 
 Add server to package.json on the bottom of scripts
-    ```javascript
+```json
     "scripts": {
-        "start": "react-scripts start", (this one was already here)
-        "build": "react-scripts build", (this one was already here)
-        "test": "react-scripts test", (this one was already here)
-        "eject": "react-scripts eject", (this one was already here)
+        "start": "react-scripts start", //(this one was already here)
+        "build": "react-scripts build", //(this one was already here)
+        "test": "react-scripts test", //(this one was already here)
+        "eject": "react-scripts eject", //(this one was already here)
         "server": "json-server --watch db.json --port 5000"
     },```
 
