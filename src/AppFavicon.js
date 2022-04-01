@@ -9,7 +9,11 @@ function App() {
   link.href = img;
   document.getElementsByTagName("head")[0].appendChild(link);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <h1>the only thing i do here is set my favicon and this h1</h1>
+    </div>
+  );
 }
 
 export default App;

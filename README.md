@@ -1,3 +1,4 @@
+# This project was started 01/04/2022
 # To create a react project
 
 open folder in terminal and write
@@ -25,11 +26,11 @@ npm i json-server
 
 Add server to package.json on the bottom of scripts
 "scripts": {
-"start": "react-scripts start", (this one was already here)
-"build": "react-scripts build", (this one was already here)
-"test": "react-scripts test", (this one was already here)
-"eject": "react-scripts eject", (this one was already here)
-"server": "json-server --watch db.json --port 5000"
+    "start": "react-scripts start", (this one was already here)
+    "build": "react-scripts build", (this one was already here)
+    "test": "react-scripts test", (this one was already here)
+    "eject": "react-scripts eject", (this one was already here)
+    "server": "json-server --watch db.json --port 5000"
 },
 
 # To Start the mock API
@@ -113,6 +114,63 @@ index.js
         import reportWebVitals from './reportWebVitals';
     change line:
         import './index.css'; to import './styles/index.css';
+
+# Shortcuts (they only work if you have an extension called ES7 React/Redux/GraphQL/React-Native snippets)
+if you dont now how to add an extension
+https://code.visualstudio.com/docs/editor/extension-marketplace
+
+clg
+    console.log(object)
+
+rafce
+    import React from 'react'
+    const Button = () => {
+        return (
+            <div></div>
+        )
+    }
+    export default Button
+
+rafcp
+    import React from 'react'
+    import PropTypes from 'prop-types'
+    const Button = props => {
+        return (
+            <div></div>
+        )
+    }
+    Button.propTypes = {}
+    export default Button
+
+rafc
+    import React from 'react'
+    const Button = () => {
+        return (
+            <div></div>
+        )
+    }
+    export default Button
+
+fre
+    array.forEach(currentItem => {})
+
+nfn
+    const name = (params) => {}
+
+ptsr
+    PropTypes.string.isRequired,
+
+rcc
+    import React, { Component } from 'react'
+    export default class Button extends Component {
+        render() {
+            return (
+                <div></div>
+            )
+        }
+    }
+
+## There are more, to see them open the extension and scroll down
 
 # Getting Started with Create React App
 
