@@ -49,7 +49,10 @@ Ctrl + C
 ## Delete the following files
 
 favicon.ico
+
 all png files
+
+
 manifest.json
 robots.txt
 App.test.js
@@ -172,7 +175,7 @@ if you dont now how to add an extension
             )
         }
     }
-
+***
 ## There are more, to see them open the extension and scroll down
 
 # Getting Started with Create React App
