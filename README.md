@@ -212,6 +212,9 @@ if you dont now how to add an extension
 
 ## There are more, to see them open the extension and scroll down
 
+## If you want to learn how to make a pretty markdown file like this one
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 ***
 # Getting Started with Create React App
 
