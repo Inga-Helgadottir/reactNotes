@@ -5,7 +5,9 @@ open folder in terminal and write
 
 npx create-react-app name-of-app
 (the name of react projects can not be camelcase)
+
 cd name-of-app
+
 code . (opens it up in VSC)
 
 i got it from here:
@@ -22,9 +24,9 @@ Ctrl + C
 # To make a mock API
 
 npm i json-server
-(Basic http server)
 
 Add server to package.json on the bottom of scripts
+
 ```json
     "scripts": {
         "start": "react-scripts start", //(this one was already here)
@@ -38,7 +40,9 @@ Add server to package.json on the bottom of scripts
 # To Start the mock API
 
 npm run server
+
 now you should have a file called db.json
+
 change stuff here and it gets added to the "API"
 
 # To stop the mock API
@@ -52,12 +56,16 @@ favicon.ico
 
 all png files
 
+manifest.json 
 
-manifest.json
-robots.txt
-App.test.js
-logo.svg
+robots.txt 
+
+App.test.js 
+
+logo.svg 
+
 reportWebVitals
+
 setupTests.js
 
 ## Change the following
