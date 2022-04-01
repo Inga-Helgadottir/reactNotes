@@ -25,7 +25,7 @@ npm i json-server
 (Basic http server)
 
 Add server to package.json on the bottom of scripts
-    ```json
+    ```javascript
     "scripts": {
         "start": "react-scripts start", (this one was already here)
         "build": "react-scripts build", (this one was already here)
