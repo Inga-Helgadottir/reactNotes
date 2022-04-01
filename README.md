@@ -32,7 +32,8 @@ Add server to package.json on the bottom of scripts
         "test": "react-scripts test", //(this one was already here)
         "eject": "react-scripts eject", //(this one was already here)
         "server": "json-server --watch db.json --port 5000"
-    },```
+    },
+```
 
 # To Start the mock API
 
