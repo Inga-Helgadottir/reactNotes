@@ -10,7 +10,7 @@ cd name-of-app
 
 code . (opens it up in VSC)
 
-i got it from here:
+i got the info from here:
 https://github.com/facebook/create-react-app/blob/main/README.md#creating-an-app
 
 # To start the project on localhost
@@ -73,20 +73,27 @@ setupTests.js
 ### Add the following folders
     components 
         the components should always start with a capital letter
+
     styles
         then move the css files to the styles folder
 
 ### index.html
-    delete lines:
+
+```html
+    <!--delete lines:-->    
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    change:
+```
+```html
+    <!--change:-->
         <title>React App</title>
-        to whatever the name of your project is
+```
+        React App to whatever the name of your project is
 
 ### App.js
-    delete lines:
+```javascript
+    //delete lines:
         import logo from './logo.svg';
         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -104,13 +111,14 @@ setupTests.js
         </header>
     change line:
         import "./App.css"; to import "./styles/App.css";
+```
 
 ### App.css
     delete everything in here exept:
-
+```css
         .App {text-align: center;}
 
-        (Only keep the following, if you want the dark header)
+        /*(Only keep the following, if you want the dark header)*/
         .App-header {
             background-color: #282c34;
             min-height: 100vh;
@@ -121,22 +129,28 @@ setupTests.js
             font-size: calc(10px + 2vmin);
             color: white;
         }
-
+```
 ### index.js
-    delete lines:
+```javascript
+    //delete lines:
         reportWebVitals();
         import reportWebVitals from './reportWebVitals';
-    change line:
+
+    //change line:
         import './index.css'; to import './styles/index.css';
+```
 
 # Shortcuts (they only work if you have an extension called ES7 React/Redux/GraphQL/React-Native snippets)
 if you dont now how to add an extension
 (https://code.visualstudio.com/docs/editor/extension-marketplace)
 
 ### clg
+```javascript
     console.log(object)
+```
 
 ### rafce
+```javascript
     import React from 'react'
     const Button = () => {
         return (
@@ -144,8 +158,10 @@ if you dont now how to add an extension
         )
     }
     export default Button
+```
 
 ### rafcp
+```javascript
     import React from 'react'
     import PropTypes from 'prop-types'
     const Button = props => {
@@ -155,8 +171,10 @@ if you dont now how to add an extension
     }
     Button.propTypes = {}
     export default Button
+```
 
 ### rafc
+```javascript
     import React from 'react'
     const Button = () => {
         return (
@@ -164,17 +182,25 @@ if you dont now how to add an extension
         )
     }
     export default Button
+```
 
 ### fre
+```javascript
     array.forEach(currentItem => {})
+```
 
 ### nfn
+```javascript
     const name = (params) => {}
+```
 
 ### ptsr
+```javascript
     PropTypes.string.isRequired,
+```
 
 ### rcc
+```javascript
     import React, { Component } from 'react'
     export default class Button extends Component {
         render() {
@@ -183,9 +209,11 @@ if you dont now how to add an extension
             )
         }
     }
-***
+```
+
 ## There are more, to see them open the extension and scroll down
 
+***
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
