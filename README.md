@@ -1,3 +1,119 @@
+# To create a react project
+
+open folder in terminal and write
+
+npx create-react-app name-of-app
+(the name of react projects can not be camelcase)
+cd name-of-app
+code . (opens it up in VSC)
+
+i got it from here:
+https://github.com/facebook/create-react-app/blob/main/README.md#creating-an-app
+
+# To start the project on localhost
+
+npm start
+
+# To stop the project
+
+Ctrl + C
+
+# To make a mock API
+
+npm i json-server
+(Basic http server)
+
+Add server to package.json on the bottom of scripts
+"scripts": {
+"start": "react-scripts start", (this one was already here)
+"build": "react-scripts build", (this one was already here)
+"test": "react-scripts test", (this one was already here)
+"eject": "react-scripts eject", (this one was already here)
+"server": "json-server --watch db.json --port 5000"
+},
+
+# To Start the mock API
+
+npm run server
+now you should have a file called db.json
+change stuff here and it gets added to the "API"
+
+# To stop the mock API
+
+Ctrl + C
+
+# files you should delete or change
+## Delete the following files
+
+favicon.ico
+all png files
+manifest.json
+robots.txt
+App.test.js
+logo.svg
+reportWebVitals
+setupTests.js
+
+## Change the following
+
+Add the following folders
+    components 
+        the components should always start with a capital letter
+    styles
+        then move the css files to the styles folder
+
+index.html
+    delete lines:
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    change:
+        <title>React App</title>
+        to whatever the name of your project is
+
+App.js
+    delete lines:
+        import logo from './logo.svg';
+        <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+        Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+                className="App-link"
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+        Learn React
+        </a>
+        </header>
+    change line:
+        import "./App.css"; to import "./styles/App.css";
+
+App.css
+    delete everything in here exept:
+        .App {text-align: center;}
+
+        (Only keep the following, if you want the dark header)
+        .App-header {
+            background-color: #282c34;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: calc(10px + 2vmin);
+            color: white;
+        }
+
+index.js
+    delete lines:
+        reportWebVitals();
+        import reportWebVitals from './reportWebVitals';
+    change line:
+        import './index.css'; to import './styles/index.css';
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
