@@ -109,13 +109,13 @@ setupTests.js
         Learn React
         </a>
         </header>
-    change line:
+    //change line:
         import "./App.css"; to import "./styles/App.css";
 ```
 
 ### App.css
-    delete everything in here exept:
 ```css
+    /*delete everything in here exept:*/
         .App {text-align: center;}
 
         /*(Only keep the following, if you want the dark header)*/
