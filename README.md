@@ -15,7 +15,10 @@ https://github.com/facebook/create-react-app/blob/main/README.md#creating-an-app
 
 # To start the project on localhost
 
+(if you cloned the repo, you need start by writing npm i)
+
 npm start
+
 
 # To stop the project
 

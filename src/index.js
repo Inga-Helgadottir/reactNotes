@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/index.css";
-import AppFavicon from "./AppFavicon";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppFavicon />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

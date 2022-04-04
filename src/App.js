@@ -11,7 +11,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>the only thing i do here is set my favicon and this h1</h1>
+      <h1>
+        the only thing i have done here so far is set my favicon and this h1
+      </h1>
     </div>
   );
 }
