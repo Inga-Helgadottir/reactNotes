@@ -31,11 +31,11 @@
 
 - spread operators
 
-- check moodle for more
-
 - map
 
 - filter
+
+- check moodle for more
 
 ***
 # To create a react project
