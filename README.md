@@ -55,14 +55,14 @@ code . (opens it up in VSC)
 i got the info from here:
 https://github.com/facebook/create-react-app/blob/main/README.md#creating-an-app
 
-# To start the project on localhost
+## To start the project on localhost
 
 (if you cloned the repo, you need start by writing npm i)
 
 npm start
 
 
-# To stop the project
+## To stop the project
 
 Ctrl + C
 
@@ -82,7 +82,7 @@ Add server to package.json on the bottom of scripts
     },
 ```
 
-# To Start the mock API
+## To Start the mock API
 
 npm run server
 
@@ -90,7 +90,7 @@ now you should have a file called db.json
 
 change stuff here and it gets added to the "API"
 
-# To stop the mock API
+## To stop the mock API
 
 Ctrl + C
 
