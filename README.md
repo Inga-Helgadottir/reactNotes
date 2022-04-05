@@ -1,7 +1,49 @@
-# This project was started 01/04/2022
+# Project ToDo
+
+- move all of showHide in its own component
+
+- Links
+
+- form with different inputs
+
+- this.state
+
+- fetch CRUD
+
+- working with data
+
+- imports and exports
+
+> js/jsx
+> functions
+> css
+> imgs
+
+- if else in one line
+
+- arrays
+
+- icons
+
+- object destructuring
+
+- propTypes & defaults
+
+- spread operators
+
+- check moodle for more
+
+- map
+
+- filter
+
 # To create a react project
 
-open folder in terminal and write
+open folder in terminal 
+
+always open the terminal in the root of the project if your not sure, 
+
+write ls, if you can see package.json, you are in the right place :)
 
 npx create-react-app name-of-app
 (the name of react projects can not be camelcase)
@@ -52,6 +94,20 @@ change stuff here and it gets added to the "API"
 
 Ctrl + C
 
+# Deploying with surge.sh
+
+npm run build
+
+npm install -g surge
+
+surge --project ./build --domain A_DOMAIN_NAME.surge.sh
+(A_DOMAIN_NAME is just so that you have a name for you site)
+
+now you will be asked for an email and a password 
+
+then you will se a link that looks something like this
+
+http://exercisestest.surge.sh/ (instead of A_DOMAIN_NAME i wrote exercisestest)
 # files you should delete or change
 ## Delete the following files
 
@@ -217,6 +273,10 @@ if you dont now how to add an extension
 
 ## If you want to learn how to make a pretty markdown file like this one
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+or
+
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ***
 # Getting Started with Create React App
