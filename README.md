@@ -37,6 +37,7 @@
 
 - filter
 
+***
 # To create a react project
 
 open folder in terminal 
@@ -66,6 +67,7 @@ npm start
 
 Ctrl + C
 
+***
 # To make a mock API
 
 npm i json-server
@@ -94,6 +96,7 @@ change stuff here and it gets added to the "API"
 
 Ctrl + C
 
+***
 # Deploying with surge.sh
 
 npm run build
@@ -108,6 +111,8 @@ now you will be asked for an email and a password
 then you will se a link that looks something like this
 
 http://exercisestest.surge.sh/ (instead of A_DOMAIN_NAME i wrote exercisestest)
+
+***
 # files you should delete or change
 ## Delete the following files
 
@@ -198,6 +203,7 @@ setupTests.js
         import './index.css'; to import './styles/index.css';
 ```
 
+***
 # Shortcuts (they only work if you have an extension called ES7 React/Redux/GraphQL/React-Native snippets)
 if you dont now how to add an extension
 (https://code.visualstudio.com/docs/editor/extension-marketplace)
@@ -271,6 +277,7 @@ if you dont now how to add an extension
 
 ## There are more, to see them open the extension and scroll down
 
+***
 ## If you want to learn how to make a pretty markdown file like this one
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
