@@ -14,10 +14,10 @@
 
 - imports and exports
 
-- - js/jsx
--- functions
-> css
-> imgs
+ - js/jsx
+ - functions
+  -  css
+  - imgs
 
 - if else in one line
 
