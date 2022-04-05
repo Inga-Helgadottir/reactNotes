@@ -14,8 +14,8 @@
 
 - imports and exports
 
-> js/jsx
-> functions
+- - js/jsx
+-- functions
 > css
 > imgs
 
