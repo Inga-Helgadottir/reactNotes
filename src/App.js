@@ -1,17 +1,11 @@
 import "./styles/App.css";
+//this is how you import a css file
 import img from "./pokemon.png";
-import { useState } from "react";
-import Button from "./components/Button";
-import ShowHide from "./components/ShowHide";
+//this is how you import an image
+import { Outlet, Link } from "react-router-dom";
+//this is how you import elements
 
 function App() {
-  //showHide
-  const [showHide, setShowHide] = useState(false);
-  //det her er ligesom en getter og setter i en java class
-  //useState(false) betyder at i starten skal denne getter returnere false
-  //for an array useState([])
-  //for a string useState("")
-
   //set favicon
   var link = document.createElement("link");
   link.type = "image/png";
@@ -22,24 +16,21 @@ function App() {
   return (
     <div className="App">
       <h1>React practise</h1>
-      <div id="showHide">
-        <h2>This is show hide</h2>
-        <Button
-          color="white"
-          showHide={showHide}
-          onClick={() => setShowHide(!showHide)}
-        />
-        {/* 
-        showHide={showHide} tells the button what to show or hide
-        onClick={() => setShowHide(!showHide)} this says that when you click the button 
-        set the showHide variable to the opposite of what it is now 
-        */}
-        {showHide && <ShowHide />}
-        {/* 
-        this line says if showHide is false hide <ShowHide />
-        else you show it 
-        */}
-      </div>
+      <nav
+        style={{
+          borderBottom: "solid 1px",
+          paddingBottom: "1rem",
+        }}
+      >
+        <Link to="/showHide">Show hide</Link>|
+        <Link to="/objectFetchC">Fetch object create</Link>|
+        <Link to="/objectFetchR">Fetch object read</Link>|
+        <Link to="/objectFetchD">Fetch object delete</Link>|
+        <Link to="/FetchC">Fetch create</Link>|
+        <Link to="/FetchR">Fetch read</Link>|
+        <Link to="/FetchU">Fetch update</Link>|
+      </nav>
+      <Outlet />
     </div>
   );
 }

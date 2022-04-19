@@ -1,21 +1,23 @@
 # Project ToDo
 
-- move all of showHide in its own component
-
-- Links
+- Links (router, route...)
 
 - form with different inputs
 
-- this.state
-
 - fetch CRUD
 
+- this.state
+
 - working with data
+  
+  - many in db.json
+  - object imported and exported
 
 - imports and exports
 
   - js/jsx
   - functions
+  - single function
   - css
   - imgs
 
@@ -35,10 +37,21 @@
 
 - filter
 
+- get the time
+
+- react.strictmode (better error comments ??)
+
+- theme color change (check CA2 front-end)
+
 - check moodle for more
+
+(react hvis det ikke er her, bliver vi ikke spurgt om det til eksamen
+https://reactjs.org/docs/getting-started.html)
 
 ***
 # To create a react project
+
+## with npx
 
 open folder in terminal 
 
@@ -54,13 +67,33 @@ cd name-of-app
 code . (opens it up in VSC)
 
 i got the info from here:
+
 https://github.com/facebook/create-react-app/blob/main/README.md#creating-an-app
+
+## with vite (faster)
+
+npm init vite@latest name-of-app
+(the name of react projects can not be camelcase)
+
+cd name-of-app
+
+code . (opens it up in VSC)
+
+i got it from here: 
+
+https://reactrouter.com/docs/en/v6/getting-started/tutorial
 
 ## To start the project on localhost
 
 (if you cloned the repo, you need start by writing npm i)
 
+(if you made it with npx)
+
 npm start
+
+(if you made it with vite)
+
+npm run dev
 
 
 ## To stop the project
